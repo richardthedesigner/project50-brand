@@ -55,7 +55,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:100;background:var(--pitch);bord
 .hero-meta strong{display:block;color:var(--chalk);font-weight:500;text-transform:none;letter-spacing:0;font-size:14px;margin-top:4px}
 
 /* SECTION BANNERS - strong visual transition */
-.section-banner{background:var(--pitch);color:var(--chalk);padding:20px 40px;position:sticky;top:64px;z-index:50;display:flex;align-items:center;gap:16px;border-bottom:1px solid rgba(249,247,239,.06)}
+.section-banner{background:var(--pitch);color:var(--chalk);padding:20px 40px;position:sticky;top:64px;z-index:50;display:flex;align-items:center;gap:16px;border-bottom:1px solid rgba(249,247,239,.06);scroll-margin-top:64px}
 .section-banner.light{background:var(--chalk);color:var(--pitch);border-bottom:1px solid rgba(17,17,17,.06)}
 .section-banner .sb-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.2em;background:var(--tape);color:var(--pitch);padding:5px 12px;border-radius:3px;flex-shrink:0}
 .section-banner .sb-title{font-family:var(--syne);font-weight:700;font-size:16px;letter-spacing:-.01em}
@@ -293,7 +293,8 @@ footer strong{display:block;color:var(--chalk);font-family:var(--syne);font-weig
 </section>
 
 <!-- ═══════════════════════════════════════ FOUNDATIONS ═══════════════════════════════════════ -->
-<div class="section-banner light" id="foundations">
+<div id="foundations" style="height:0;margin:0;padding:0;visibility:hidden;position:relative;top:-68px"></div>
+<div class="section-banner light">
   <span class="sb-label">Foundations</span>
   <span class="sb-title">Identity &amp; Values</span>
 </div>
@@ -349,7 +350,8 @@ footer strong{display:block;color:var(--chalk);font-family:var(--syne);font-weig
 </section>
 
 <!-- ═══════════════════════════════════════════ LOGO ═══════════════════════════════════════════ -->
-<div class="section-banner" id="logo">
+<div id="logo" style="height:0;margin:0;padding:0;visibility:hidden;position:relative;top:-68px"></div>
+<div class="section-banner">
   <span class="sb-label">Logo</span>
   <span class="sb-title">A mark shaped by motion, purpose, and continuity</span>
 </div>
@@ -376,7 +378,8 @@ footer strong{display:block;color:var(--chalk);font-family:var(--syne);font-weig
 </section>
 
 <!-- ═══════════════════════════════════════ TYPOGRAPHY ═══════════════════════════════════════ -->
-<div class="section-banner light" id="typography">
+<div id="typography" style="height:0;margin:0;padding:0;visibility:hidden;position:relative;top:-68px"></div>
+<div class="section-banner light">
   <span class="sb-label">Typography</span>
   <span class="sb-title">Structured clarity, editorial weight</span>
 </div>
@@ -406,7 +409,8 @@ footer strong{display:block;color:var(--chalk);font-family:var(--syne);font-weig
 </section>
 
 <!-- ═══════════════════════════════════════ COLOURS ═══════════════════════════════════════════ -->
-<div class="section-banner" id="colours">
+<div id="colours" style="height:0;margin:0;padding:0;visibility:hidden;position:relative;top:-68px"></div>
+<div class="section-banner">
   <span class="sb-label">Colours</span>
   <span class="sb-title">Warmth, restraint, and structure</span>
 </div>
@@ -459,7 +463,8 @@ footer strong{display:block;color:var(--chalk);font-family:var(--syne);font-weig
 </section>
 
 <!-- ═══════════════════════════════════════ IMAGERY ═══════════════════════════════════════════ -->
-<div class="dark" id="imagery">
+<div id="imagery" style="height:0;margin:0;padding:0;visibility:hidden;position:relative;top:-68px"></div>
+<div class="dark">
   <div class="section-banner" style="max-width:100%;margin:-80px -40px 40px;position:sticky;top:64px;z-index:50">
     <span class="sb-label">Imagery</span>
     <span class="sb-title">Strength, not spectacle</span>
@@ -527,7 +532,8 @@ footer strong{display:block;color:var(--chalk);font-family:var(--syne);font-weig
 </div>
 
 <!-- ═══════════════════════════════════════════ VOICE ═══════════════════════════════════════════ -->
-<div class="section-banner light" id="voice">
+<div id="voice" style="height:0;margin:0;padding:0;visibility:hidden;position:relative;top:-68px"></div>
+<div class="section-banner light">
   <span class="sb-label">Voice</span>
   <span class="sb-title">Measured. Editorial. Anti-cliché.</span>
 </div>
@@ -559,7 +565,8 @@ footer strong{display:block;color:var(--chalk);font-family:var(--syne);font-weig
 </section>
 
 <!-- ═══════════════════════════════════════ EXAMPLES ═══════════════════════════════════════════ -->
-<div class="section-banner light" id="examples">
+<div id="examples" style="height:0;margin:0;padding:0;visibility:hidden;position:relative;top:-68px"></div>
+<div class="section-banner light">
   <span class="sb-label">Examples</span>
   <span class="sb-title">Good vs. bad copy &amp; the P50 lexicon</span>
 </div>
@@ -599,7 +606,8 @@ footer strong{display:block;color:var(--chalk);font-family:var(--syne);font-weig
 
 
 <!-- ═══════════════════════════════════════ TEMPLATES ═══════════════════════════════════════════ -->
-<div class="section-banner light" id="templates">
+<div id="templates" style="height:0;margin:0;padding:0;visibility:hidden;position:relative;top:-68px"></div>
+<div class="section-banner light">
   <span class="sb-label">Templates</span>
   <span class="sb-title">Social, email &amp; communications</span>
 </div>
@@ -661,7 +669,8 @@ footer strong{display:block;color:var(--chalk);font-family:var(--syne);font-weig
 </section>
 
 <!-- ═══════════════════════════════════════ COMPONENTS ═══════════════════════════════════════ -->
-<div class="section-banner light" id="components">
+<div id="components" style="height:0;margin:0;padding:0;visibility:hidden;position:relative;top:-68px"></div>
+<div class="section-banner light">
   <span class="sb-label">Components</span>
   <span class="sb-title">Programme naming &amp; UI system</span>
 </div>
@@ -721,7 +730,8 @@ footer strong{display:block;color:var(--chalk);font-family:var(--syne);font-weig
 </section>
 
 <!-- ═══════════════════════════════════════ DOWNLOADS ═══════════════════════════════════════ -->
-<div class="dark" id="downloads">
+<div id="downloads" style="height:0;margin:0;padding:0;visibility:hidden;position:relative;top:-68px"></div>
+<div class="dark">
   <div class="section-banner" style="max-width:100%;margin:-80px -40px 40px;position:sticky;top:64px;z-index:50">
     <span class="sb-label">Downloads</span>
     <span class="sb-title">Brand assets</span>
@@ -818,7 +828,7 @@ window.addEventListener('scroll',()=>{
   });
 });
 
-function scrollTo_(el){var id=el.getAttribute('data-target');var t=document.getElementById(id);if(t){var rect=t.getBoundingClientRect();var absTop=rect.top+window.scrollY-68;window.scrollTo({top:Math.max(0,absTop),behavior:'smooth'});document.querySelector('.nav-links').classList.remove('open')}}
+function scrollTo_(el){var id=el.getAttribute('data-target');var t=document.getElementById(id);if(t){t.scrollIntoView({behavior:'smooth',block:'start'});document.querySelector('.nav-links').classList.remove('open')}}
 
 function copyHex(h,c){navigator.clipboard.writeText(h).then(()=>{const n=c.querySelector('.copied');n.classList.add('show');setTimeout(()=>n.classList.remove('show'),1200)})}
 
