@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Project 50 Brand Quick Reference</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Syne:wght@700;800&display=block" rel="stylesheet">
+<style>
+  @page { size: A4; margin: 12mm; }
+  * { margin: 0; box-sizing: border-box; }
+  body { font-family: 'Plus Jakarta Sans', sans-serif; color: #111111; font-size: 8.5pt; line-height: 1.45; }
+  .head { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 3px solid #FDBB30; padding-bottom: 8px; margin-bottom: 14px; }
+  h1 { font-family: 'Syne'; font-weight: 800; font-size: 17pt; letter-spacing: -0.01em; }
+  .v { font-size: 7pt; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #54555B; }
+  h2 { font-family: 'Syne'; font-weight: 700; font-size: 9.5pt; margin: 12px 0 6px; text-transform: uppercase; letter-spacing: 0.06em; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 22px; }
+  table { width: 100%; border-collapse: collapse; }
+  td, th { text-align: left; padding: 3px 6px 3px 0; border-bottom: 0.5pt solid rgba(17,17,17,0.15); vertical-align: top; }
+  th { font-size: 6.5pt; letter-spacing: 0.12em; text-transform: uppercase; color: #54555B; }
+  .sw { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; border: 0.5pt solid rgba(17,17,17,0.2); }
+  code { font-family: inherit; font-weight: 700; }
+  ul { padding-left: 12px; }
+  li { margin-bottom: 2px; }
+  .foot { margin-top: 12px; padding-top: 6px; border-top: 0.5pt solid rgba(17,17,17,0.25); font-size: 6.5pt; letter-spacing: 0.1em; text-transform: uppercase; color: #54555B; display: flex; justify-content: space-between; }
+  .type-demo { font-family: 'Syne'; font-weight: 800; font-size: 15pt; letter-spacing: -0.02em; }
+</style>
+</head>
+<body>
+  <div class="head">
+    <h1>Project 50 &middot; Brand quick reference</h1>
+    <span class="v">v1.1 &middot; July 2026</span>
+  </div>
+  <div class="cols">
+    <div>
+      <h2>Colours</h2>
+      <table>
+        <tr><th>Name</th><th>Hex</th><th>Use</th></tr>
+        <tr><td><span class="sw" style="background:#F9F7EF"></span>Chalk Line</td><td><code>#F9F7EF</code></td><td>Backgrounds, ~60%</td></tr>
+        <tr><td><span class="sw" style="background:#111111"></span>Pitch</td><td><code>#111111</code></td><td>Text, anchoring, ~25%</td></tr>
+        <tr><td><span class="sw" style="background:#FDBB30"></span>Summer Tape</td><td><code>#FDBB30</code></td><td>Accent, CTAs, ~10%, never a background fill</td></tr>
+        <tr><td><span class="sw" style="background:#D98F3D"></span>Court Clay</td><td><code>#D98F3D</code></td><td>Warm overlays and panels</td></tr>
+        <tr><td><span class="sw" style="background:#516B8B"></span>Track Blue</td><td><code>#516B8B</code></td><td>Charts, data, editorial</td></tr>
+        <tr><td><span class="sw" style="background:#717271"></span>Steel Breath</td><td><code>#717271</code></td><td>Neutral support, 16px+ text only on Chalk</td></tr>
+      </table>
+      <h2>Contrast rules</h2>
+      <ul>
+        <li>Text pairs: Pitch on Chalk, Chalk on Pitch, Tape on Pitch.</li>
+        <li>Summer Tape and Court Clay are never text on Chalk.</li>
+        <li>Track Blue reads at body size on Chalk, large sizes on Pitch.</li>
+      </ul>
+      <h2>Typography</h2>
+      <p class="type-demo">Syne 700&ndash;800</p>
+      <p style="margin:2px 0 4px">Display, hero statements, used sparingly.</p>
+      <p style="font-weight:700">Plus Jakarta Sans 300&ndash;800</p>
+      <p>Body and UI, roughly 90% of all brand communication.</p>
+    </div>
+    <div>
+      <h2>Logo</h2>
+      <ul>
+        <li>Wordmark minimum 120px digital, 30mm print.</li>
+        <li>Monogram minimum 32px digital, 10mm print.</li>
+        <li>Clear space: the height of the "0", all sides.</li>
+        <li>Approved colourways only. No gradients, shadows, or effects. Clean backgrounds.</li>
+      </ul>
+      <h2>Spacing &amp; motion</h2>
+      <ul>
+        <li>Base unit 8px; scale 8 / 16 / 24 / 32 / 48 / 64 / 80 / 120.</li>
+        <li>Radius 4 / 8 / 12px.</li>
+        <li>Motion: 150 / 250 / 400ms. Nothing longer than 400ms. Honour reduced motion completely.</li>
+      </ul>
+      <h2>Programme tiers</h2>
+      <p>Foundations &middot; Form &middot; Flow &middot; Field &middot; Fifty</p>
+      <h2>Voice</h2>
+      <ul>
+        <li>Measured and editorial. Confident without bombast.</li>
+        <li>Mantras: "Care is strength." "Capacity is performance."</li>
+        <li>Never: "shred", "beast mode", "no pain, no gain", countdown timers, transformation photos.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot">
+    <span>brand.project50.uk</span>
+    <span>Built to last. Designed to evolve.</span>
+  </div>
+</body>
+</html>
